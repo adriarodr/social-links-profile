@@ -1,0 +1,47 @@
+:root {
+    --c-primary-400: hsl(75, 94%, 57%);
+
+    --c-neutral-100: hsl(0, 0%, 100%);
+    --c-neutral-500: hsl(0, 0%, 20%);
+    --c-neutral-800: hsl(0, 0%, 12%);
+    --c-neutral-900: hsl(0, 0%, 8%);
+
+    --screen-sm: 375px;
+    --screen-md: 768px;
+    --screen-lg: 1440px;
+
+    --fw-regular: 400;
+    --fw-bold: 600;
+    --fw-very-bold: 700;
+}
+
+body {
+    background-color: var(--c-neutral-900);
+    padding: 9.375em 1.875em;
+}
+
+.profile-card {
+    align-content: center;
+    background-color: var(--c-neutral-800);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+    text-align: center;
+}
+
+.profile-card img {
+    align-self: center;
+    border-radius: 50%;
+    max-width: 30%;
+}
+
+h1 {
+    color: var(--c-neutral-100);
+    font-size: 1.75em;
+}
+
+h2 {
+
+}
